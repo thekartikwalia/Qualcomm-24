@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['Book', 'Bottle', 'Chair', 'Human-body', 'Laptop', 'Table']
+
+roboflow:
+  workspace: new-workspace-mqcgc
+  project: final-qfmor
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/new-workspace-mqcgc/final-qfmor/dataset/1
